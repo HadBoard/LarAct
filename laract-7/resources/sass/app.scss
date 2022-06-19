@@ -1,0 +1,13 @@
+// Variables
+@import 'variables';
+
+// Mixin
+@import 'mixin';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body {
+    @include bgc($body-bg);
+}

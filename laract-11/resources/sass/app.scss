@@ -1,0 +1,28 @@
+// Variables
+@import 'variables';
+
+// Mixin
+@import 'mixin';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body {
+    @include bgc($body-bg);
+}
+
+#tbl {
+
+    th {
+        background-color: gray;
+        color: white;
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    td {
+        background-color: white;
+    }
+
+}
